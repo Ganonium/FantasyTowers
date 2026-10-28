@@ -1,0 +1,10 @@
+{
+  "name": "Fantasy Towers",
+  "short_name": "Towers",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#140e1c",
+  "theme_color": "#140e1c",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

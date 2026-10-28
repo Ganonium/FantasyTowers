@@ -1,0 +1,55 @@
+/** Deutsche Texte. Für weitere Sprachen eine Datei mit denselben Schlüsseln anlegen. */
+export const de: Record<string, string> = {
+  'title.play': 'Spielen',
+  'title.subtitle': 'Die Orks kommen!',
+  'select.title': 'Level wählen',
+  'select.locked': 'Gesperrt',
+  'select.back': 'Zurück',
+
+  'hud.wave': 'Welle {n}/{total}',
+
+  'panel.startWave': 'Welle {n} starten',
+  'panel.nextWave': 'Nächste Welle +{bonus}',
+  'panel.hintBuild': 'Tippe auf einen Bauplatz',
+  'panel.lastWave': 'Letzte Welle!',
+  'panel.build': 'Turm bauen',
+  'panel.tapAgain': 'Nochmal tippen zum Bauen',
+  'panel.tooExpensive': 'Nicht genug Gold',
+  'panel.level': 'Stufe {n}',
+  'panel.upgrade': 'Ausbau {cost}',
+  'panel.maxed': 'Max. Stufe',
+  'panel.sell': 'Verkauf +{gold}',
+  'stat.damage': 'Schaden {v}',
+  'stat.range': 'Reichw. {v}',
+  'stat.rate': 'Tempo {v}/s',
+
+  'pause.title': 'Pause',
+  'pause.resume': 'Weiter',
+  'pause.restart': 'Neustart',
+  'pause.menu': 'Menü',
+
+  'end.victory': 'Sieg!',
+  'end.defeat': 'Niederlage',
+  'end.defeatText': 'Die Horde hat das Tor erreicht.',
+  'end.victoryText': 'Das Tal ist sicher.',
+  'end.retry': 'Nochmal',
+  'end.next': 'Weiter',
+  'end.menu': 'Menü',
+
+  'tower.archer.name': 'Bogenturm',
+  'tower.archer.desc': 'Schnelle Pfeile gegen einzelne Ziele.',
+  'tower.catapult.name': 'Katapult',
+  'tower.catapult.desc': 'Langsame Steine mit Flächenschaden.',
+  'tower.fire.name': 'Feuermagier',
+  'tower.fire.desc': 'Magisches Feuer, ignoriert Rüstung, setzt in Brand.',
+  'tower.frost.name': 'Frostmagier',
+  'tower.frost.desc': 'Magisches Eis, verlangsamt Gegner.',
+
+  'enemy.goblin': 'Goblin',
+  'enemy.orc': 'Ork',
+  'enemy.brute': 'Ork-Brute',
+  'enemy.wolfrider': 'Wolfsreiter',
+
+  'map.greenvale': 'Grüntal',
+  'level.l1': 'Grüntal',
+};
