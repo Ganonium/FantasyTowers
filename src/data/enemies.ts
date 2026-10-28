@@ -1,0 +1,48 @@
+import type { EnemyDef } from './types';
+
+export const ENEMIES: Record<string, EnemyDef> = {
+  goblin: {
+    id: 'goblin',
+    name: 'enemy.goblin',
+    hp: 28,
+    speed: 30,
+    armor: 0,
+    magicResist: 0,
+    bounty: 5,
+    lives: 1,
+    barOffset: 15,
+  },
+  orc: {
+    id: 'orc',
+    name: 'enemy.orc',
+    hp: 70,
+    speed: 20,
+    armor: 0.2,
+    magicResist: 0,
+    bounty: 11,
+    lives: 1,
+    barOffset: 18,
+  },
+  brute: {
+    id: 'brute',
+    name: 'enemy.brute',
+    hp: 230,
+    speed: 13,
+    armor: 0.5,
+    magicResist: 0.1,
+    bounty: 28,
+    lives: 3,
+    barOffset: 21,
+  },
+  wolfrider: {
+    id: 'wolfrider',
+    name: 'enemy.wolfrider',
+    hp: 55,
+    speed: 44,
+    armor: 0.1,
+    magicResist: 0.2,
+    bounty: 12,
+    lives: 1,
+    barOffset: 16,
+  },
+};

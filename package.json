@@ -1,0 +1,17 @@
+{
+  "name": "fantasytowers",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Fantasy Tower Defense im Pixel-Art-Stil, optimiert für Smartphones",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.9",
+    "vite": "^8.3.5"
+  }
+}
